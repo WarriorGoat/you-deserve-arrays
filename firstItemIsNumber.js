@@ -4,6 +4,7 @@ const prompt = require('prompt-sync') ({sigint: true});
 let userArray = JSON.parse(prompt("Enter an array:  "));
 let test = false
 
+console.log(typeof(userArray[0]));
 if (typeof(userArray[0])==="number") {
     test = true;
 }
